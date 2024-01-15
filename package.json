@@ -1,0 +1,32 @@
+{
+	"name": "tailwindcss-starter",
+	"version": "1.0.0",
+	"description": "Tailwind starter, help to build layouting template.",
+	"repository": "https://github.com/sdldev/tailwindcss-starter.git",
+	"homepage": "https://indatechno.com",
+	"keywords": [
+		"preline ui",
+		"html",
+		"css",
+		"tailwind",
+		"tailwind examples",
+		"tailwind css",
+		"tailwind ui",
+		"tailwindcss",
+		"tailwindcss starter"
+	],
+	"author": "sdldev",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"dev": "npx tailwindcss -i ./src/input.css -o ./dist/app.css --watch"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.4.1"
+	},
+	"dependencies": {
+		"preline": "^2.0.3"
+	}
+}
